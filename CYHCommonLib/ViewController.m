@@ -2,10 +2,11 @@
 //  ViewController.m
 //  CYHCommonLib
 //
-//  Created by 陈业泓 on 2021/1/26.
+//  Created by chenyehong on 2021/1/26.
 //
 
 #import "ViewController.h"
+#import "XibSubViewViewController.h"
 
 @interface ViewController ()
 
@@ -18,5 +19,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)clickxIb:(id)sender {
+    XibSubViewViewController *vc = [[XibSubViewViewController alloc] init];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end

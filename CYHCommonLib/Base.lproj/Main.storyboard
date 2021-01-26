@@ -16,18 +16,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一个开源库，持续更新" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIP-LJ-SZa">
-                                <rect key="frame" x="111.5" y="442.5" width="191" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo示范" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hje-GG-SIs">
+                                <rect key="frame" x="0.0" y="44" width="414" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="UH3-d4-CHp"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OSY-gH-at5">
+                                <rect key="frame" x="0.0" y="89" width="414" height="45"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t90-8k-MRx">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
+                                        <state key="normal" title="嵌套xib使用示例"/>
+                                        <connections>
+                                            <action selector="clickxIb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ay8-he-ufr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="90o-Ra-fzJ"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="TIP-LJ-SZa" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="DmL-v5-V8W"/>
-                            <constraint firstItem="TIP-LJ-SZa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kqw-LX-hz1"/>
+                            <constraint firstItem="Hje-GG-SIs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="87O-iv-7bY"/>
+                            <constraint firstItem="OSY-gH-at5" firstAttribute="top" secondItem="Hje-GG-SIs" secondAttribute="bottom" id="9oA-ot-N14"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hje-GG-SIs" secondAttribute="trailing" id="CmS-Xc-CsX"/>
+                            <constraint firstItem="Hje-GG-SIs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="FrJ-4u-1ty"/>
+                            <constraint firstItem="OSY-gH-at5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l5g-9o-hgh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OSY-gH-at5" secondAttribute="trailing" id="vZ3-G9-G0j"/>
                         </constraints>
                     </view>
                 </viewController>
