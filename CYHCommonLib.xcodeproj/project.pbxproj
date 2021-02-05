@@ -20,6 +20,17 @@
 		818B170C25BFEDF0006E374B /* XibSubViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818B170A25BFEDF0006E374B /* XibSubViewViewController.xib */; };
 		818B171625BFEFF2006E374B /* BackTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B171525BFEFF2006E374B /* BackTopView.m */; };
 		818B171E25BFEFFB006E374B /* BackTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818B171D25BFEFFB006E374B /* BackTopView.xib */; };
+		81CAE95B25CD14FB00B5C8A7 /* GTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CAE95725CD14FB00B5C8A7 /* GTableView.m */; };
+		81CAE95C25CD14FB00B5C8A7 /* TBRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CAE95825CD14FB00B5C8A7 /* TBRowModel.m */; };
+		81CAE95D25CD14FB00B5C8A7 /* TBSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CAE95A25CD14FB00B5C8A7 /* TBSectionModel.m */; };
+		81CAE96525CD167300B5C8A7 /* TBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CAE96325CD167300B5C8A7 /* TBTableViewController.m */; };
+		81CAE96625CD167300B5C8A7 /* TBTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CAE96425CD167300B5C8A7 /* TBTableViewController.xib */; };
+		81CAE96F25CD17AB00B5C8A7 /* TBTestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CAE96E25CD17AB00B5C8A7 /* TBTestHeader.m */; };
+		81CAE97425CD17B300B5C8A7 /* TBTestHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CAE97325CD17B300B5C8A7 /* TBTestHeader.xib */; };
+		81CAE97B25CD180B00B5C8A7 /* TBTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CAE97925CD180B00B5C8A7 /* TBTestCell.m */; };
+		81CAE97C25CD180B00B5C8A7 /* TBTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CAE97A25CD180B00B5C8A7 /* TBTestCell.xib */; };
+		81CAE98225CD183E00B5C8A7 /* TBTestFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CAE98125CD183E00B5C8A7 /* TBTestFooter.m */; };
+		81CAE98725CD184500B5C8A7 /* TBTestFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CAE98625CD184500B5C8A7 /* TBTestFooter.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +75,24 @@
 		818B171425BFEFF2006E374B /* BackTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackTopView.h; sourceTree = "<group>"; };
 		818B171525BFEFF2006E374B /* BackTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackTopView.m; sourceTree = "<group>"; };
 		818B171D25BFEFFB006E374B /* BackTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackTopView.xib; sourceTree = "<group>"; };
+		81CAE95525CD14FB00B5C8A7 /* GTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTableView.h; sourceTree = "<group>"; };
+		81CAE95625CD14FB00B5C8A7 /* TBRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRowModel.h; sourceTree = "<group>"; };
+		81CAE95725CD14FB00B5C8A7 /* GTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTableView.m; sourceTree = "<group>"; };
+		81CAE95825CD14FB00B5C8A7 /* TBRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRowModel.m; sourceTree = "<group>"; };
+		81CAE95925CD14FB00B5C8A7 /* TBSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSectionModel.h; sourceTree = "<group>"; };
+		81CAE95A25CD14FB00B5C8A7 /* TBSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBSectionModel.m; sourceTree = "<group>"; };
+		81CAE96225CD167300B5C8A7 /* TBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTableViewController.h; sourceTree = "<group>"; };
+		81CAE96325CD167300B5C8A7 /* TBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTableViewController.m; sourceTree = "<group>"; };
+		81CAE96425CD167300B5C8A7 /* TBTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBTableViewController.xib; sourceTree = "<group>"; };
+		81CAE96D25CD17AB00B5C8A7 /* TBTestHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTestHeader.h; sourceTree = "<group>"; };
+		81CAE96E25CD17AB00B5C8A7 /* TBTestHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTestHeader.m; sourceTree = "<group>"; };
+		81CAE97325CD17B300B5C8A7 /* TBTestHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBTestHeader.xib; sourceTree = "<group>"; };
+		81CAE97825CD180B00B5C8A7 /* TBTestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTestCell.h; sourceTree = "<group>"; };
+		81CAE97925CD180B00B5C8A7 /* TBTestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTestCell.m; sourceTree = "<group>"; };
+		81CAE97A25CD180B00B5C8A7 /* TBTestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBTestCell.xib; sourceTree = "<group>"; };
+		81CAE98025CD183E00B5C8A7 /* TBTestFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTestFooter.h; sourceTree = "<group>"; };
+		81CAE98125CD183E00B5C8A7 /* TBTestFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTestFooter.m; sourceTree = "<group>"; };
+		81CAE98625CD184500B5C8A7 /* TBTestFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBTestFooter.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +179,7 @@
 		818B16F525BFEAC0006E374B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				81CAE95425CD14E400B5C8A7 /* UITableView */,
 				818B16F625BFEACC006E374B /* UIView */,
 			);
 			path = Classes;
@@ -167,6 +197,7 @@
 		818B170625BFEDB7006E374B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				81CAE96125CD154E00B5C8A7 /* TBTableView */,
 				818B170725BFEDC6006E374B /* XibSubView */,
 			);
 			path = Demo;
@@ -183,6 +214,38 @@
 				818B171D25BFEFFB006E374B /* BackTopView.xib */,
 			);
 			path = XibSubView;
+			sourceTree = "<group>";
+		};
+		81CAE95425CD14E400B5C8A7 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				81CAE95525CD14FB00B5C8A7 /* GTableView.h */,
+				81CAE95725CD14FB00B5C8A7 /* GTableView.m */,
+				81CAE95625CD14FB00B5C8A7 /* TBRowModel.h */,
+				81CAE95825CD14FB00B5C8A7 /* TBRowModel.m */,
+				81CAE95925CD14FB00B5C8A7 /* TBSectionModel.h */,
+				81CAE95A25CD14FB00B5C8A7 /* TBSectionModel.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		81CAE96125CD154E00B5C8A7 /* TBTableView */ = {
+			isa = PBXGroup;
+			children = (
+				81CAE96225CD167300B5C8A7 /* TBTableViewController.h */,
+				81CAE96325CD167300B5C8A7 /* TBTableViewController.m */,
+				81CAE96425CD167300B5C8A7 /* TBTableViewController.xib */,
+				81CAE96D25CD17AB00B5C8A7 /* TBTestHeader.h */,
+				81CAE96E25CD17AB00B5C8A7 /* TBTestHeader.m */,
+				81CAE97325CD17B300B5C8A7 /* TBTestHeader.xib */,
+				81CAE97825CD180B00B5C8A7 /* TBTestCell.h */,
+				81CAE97925CD180B00B5C8A7 /* TBTestCell.m */,
+				81CAE97A25CD180B00B5C8A7 /* TBTestCell.xib */,
+				81CAE98025CD183E00B5C8A7 /* TBTestFooter.h */,
+				81CAE98125CD183E00B5C8A7 /* TBTestFooter.m */,
+				81CAE98625CD184500B5C8A7 /* TBTestFooter.xib */,
+			);
+			path = TBTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +351,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				818B171E25BFEFFB006E374B /* BackTopView.xib in Resources */,
+				81CAE96625CD167300B5C8A7 /* TBTableViewController.xib in Resources */,
 				818B170C25BFEDF0006E374B /* XibSubViewViewController.xib in Resources */,
 				818B16C925BFE72D006E374B /* LaunchScreen.storyboard in Resources */,
 				818B16C625BFE72D006E374B /* Assets.xcassets in Resources */,
+				81CAE98725CD184500B5C8A7 /* TBTestFooter.xib in Resources */,
+				81CAE97C25CD180B00B5C8A7 /* TBTestCell.xib in Resources */,
 				818B16C425BFE72C006E374B /* Main.storyboard in Resources */,
+				81CAE97425CD17B300B5C8A7 /* TBTestHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,12 +383,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CAE95D25CD14FB00B5C8A7 /* TBSectionModel.m in Sources */,
+				81CAE95B25CD14FB00B5C8A7 /* GTableView.m in Sources */,
+				81CAE98225CD183E00B5C8A7 /* TBTestFooter.m in Sources */,
 				818B16FF25BFED22006E374B /* CYHXibSubView.m in Sources */,
 				818B16C125BFE72C006E374B /* ViewController.m in Sources */,
 				818B170B25BFEDF0006E374B /* XibSubViewViewController.m in Sources */,
+				81CAE97B25CD180B00B5C8A7 /* TBTestCell.m in Sources */,
 				818B171625BFEFF2006E374B /* BackTopView.m in Sources */,
 				818B16BB25BFE72C006E374B /* AppDelegate.m in Sources */,
+				81CAE95C25CD14FB00B5C8A7 /* TBRowModel.m in Sources */,
 				818B16CC25BFE72D006E374B /* main.m in Sources */,
+				81CAE96525CD167300B5C8A7 /* TBTableViewController.m in Sources */,
+				81CAE96F25CD17AB00B5C8A7 /* TBTestHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

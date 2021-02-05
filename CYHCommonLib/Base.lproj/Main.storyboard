@@ -25,20 +25,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OSY-gH-at5">
-                                <rect key="frame" x="0.0" y="89" width="414" height="45"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="OSY-gH-at5">
+                                <rect key="frame" x="0.0" y="89" width="414" height="90"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t90-8k-MRx">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="H4k-OO-NZD"/>
+                                        </constraints>
                                         <state key="normal" title="嵌套xib使用示例"/>
                                         <connections>
                                             <action selector="clickxIb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ay8-he-ufr"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ig4-mf-p9u">
+                                        <rect key="frame" x="0.0" y="45" width="414" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="gpc-BY-hrd"/>
+                                        </constraints>
+                                        <state key="normal" title="封装UITableView精简使用"/>
+                                        <connections>
+                                            <action selector="clickGTableView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rUo-P7-apV"/>
+                                            <action selector="clickxIb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wlh-NT-y1q"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="90o-Ra-fzJ"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

@@ -24,8 +24,9 @@
 }
 
 -(void)createUI{
-    UINib *nib = [UINib nibWithNibName:NSStringFromClass([self class]) bundle:[NSBundle bundleForClass:[self class]]];
-    UIView *contentView = [nib instantiateWithOwner:self options:nil].firstObject;
+//    UINib *nib = [UINib nibWithNibName:NSStringFromClass([self class]) bundle:[NSBundle bundleForClass:[self class]]];
+//    UIView *contentView = [nib instantiateWithOwner:self options:nil].firstObject;
+    UIView *contentView = [[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil].firstObject;
     
     contentView.frame = self.bounds;
     contentView.autoresizingMask = UIViewAutoresizingFlexibleWidth| UIViewAutoresizingFlexibleHeight;
