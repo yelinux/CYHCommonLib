@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		817EA67A25ECEB15004DCC46 /* TBDataDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 817EA67925ECEB15004DCC46 /* TBDataDelegate.m */; };
 		818B16BB25BFE72C006E374B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B16BA25BFE72C006E374B /* AppDelegate.m */; };
 		818B16C125BFE72C006E374B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B16C025BFE72C006E374B /* ViewController.m */; };
 		818B16C425BFE72C006E374B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818B16C225BFE72C006E374B /* Main.storyboard */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		817EA67825ECEB15004DCC46 /* TBDataDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBDataDelegate.h; sourceTree = "<group>"; };
+		817EA67925ECEB15004DCC46 /* TBDataDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBDataDelegate.m; sourceTree = "<group>"; };
 		818B16B625BFE72C006E374B /* CYHCommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYHCommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818B16B925BFE72C006E374B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		818B16BA25BFE72C006E374B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -225,6 +228,8 @@
 				81CAE95825CD14FB00B5C8A7 /* TBRowModel.m */,
 				81CAE95925CD14FB00B5C8A7 /* TBSectionModel.h */,
 				81CAE95A25CD14FB00B5C8A7 /* TBSectionModel.m */,
+				817EA67825ECEB15004DCC46 /* TBDataDelegate.h */,
+				817EA67925ECEB15004DCC46 /* TBDataDelegate.m */,
 			);
 			path = UITableView;
 			sourceTree = "<group>";
@@ -393,6 +398,7 @@
 				818B171625BFEFF2006E374B /* BackTopView.m in Sources */,
 				818B16BB25BFE72C006E374B /* AppDelegate.m in Sources */,
 				81CAE95C25CD14FB00B5C8A7 /* TBRowModel.m in Sources */,
+				817EA67A25ECEB15004DCC46 /* TBDataDelegate.m in Sources */,
 				818B16CC25BFE72D006E374B /* main.m in Sources */,
 				81CAE96525CD167300B5C8A7 /* TBTableViewController.m in Sources */,
 				81CAE96F25CD17AB00B5C8A7 /* TBTestHeader.m in Sources */,

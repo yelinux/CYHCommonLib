@@ -6,13 +6,14 @@
 //
 
 #import "TBTableViewController.h"
-#import "GTableView.h"
 #import "TBTestHeader.h"
 #import "TBTestCell.h"
 #import "TBTestFooter.h"
+#import "TBDataDelegate.h"
 
 @interface TBTableViewController ()
-@property (weak, nonatomic) IBOutlet GTableView *tableView;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) TBDataDelegate *dataDelegate;
 
 @end
 
@@ -24,6 +25,10 @@
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass(TBTestHeader.class) bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass(TBTestHeader.class)];
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass(TBTestCell.class) bundle:nil] forCellReuseIdentifier:NSStringFromClass(TBTestCell.class)];
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass(TBTestFooter.class) bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass(TBTestFooter.class)];
+    
+    self.dataDelegate = [[TBDataDelegate alloc] init];
+    self.tableView.delegate = self.dataDelegate;
+    self.tableView.dataSource = self.dataDelegate;
     
     /**
      通过按照顺序添加header,cell,footer模型来显示ui，自带height缓存
@@ -56,7 +61,7 @@
         return footer;
     } estimatedSectionFooterHeight:60];
     
-    self.tableView.sectionModelList = @[group];
+    self.dataDelegate.sectionModelList = @[group];
     
     [self.tableView reloadData];
 }
