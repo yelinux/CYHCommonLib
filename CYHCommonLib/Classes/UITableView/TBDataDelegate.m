@@ -31,7 +31,7 @@
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     TBSectionModel *groupModel = [self.sectionModelList objectAtIndex:section];
     if (groupModel.viewForHeader) {
-        return groupModel.viewForHeader(tableView);
+        return groupModel.viewForHeader(tableView, section);
     }
     return nil;
 }
@@ -64,7 +64,7 @@
 -(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
     TBSectionModel *groupModel = [self.sectionModelList objectAtIndex:section];
     if (groupModel.viewForFooter) {
-        return groupModel.viewForFooter(tableView);
+        return groupModel.viewForFooter(tableView, section);
     }
     return nil;
 }

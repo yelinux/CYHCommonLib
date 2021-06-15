@@ -37,7 +37,7 @@
      */
     
     TBSectionModel *group = [[TBSectionModel alloc] init];
-    [group createHeader:^UITableViewHeaderFooterView * _Nullable(UITableView * _Nonnull tableView) {
+    [group createHeader:^UITableViewHeaderFooterView * _Nullable(UITableView * _Nonnull tableView, NSInteger section) {
         TBTestHeader *header = [tableView dequeueReusableHeaderFooterViewWithIdentifier:NSStringFromClass([TBTestHeader class])];
         header.lb.text = @"这里是header";
         return header;
@@ -55,7 +55,7 @@
         return cell;
     } estimatedRowHeight:50]];
     
-    [group createFooter:^UITableViewHeaderFooterView * _Nullable(UITableView * _Nonnull tableView) {
+    [group createFooter:^UITableViewHeaderFooterView * _Nullable(UITableView * _Nonnull tableView, NSInteger section) {
         TBTestFooter *footer = [tableView dequeueReusableHeaderFooterViewWithIdentifier:NSStringFromClass([TBTestFooter class])];
         footer.lb.text = @"这里是footer";
         return footer;

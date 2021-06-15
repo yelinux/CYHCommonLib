@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef UITableViewHeaderFooterView* _Nullable (^TBSectionModelBlock)(UITableView *tableView);
+typedef UITableViewHeaderFooterView* _Nullable (^TBSectionModelBlock)(UITableView *tableView, NSInteger section);
 
 @interface TBSectionModel : NSObject
 
