@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "XibSubViewViewController.h"
 #import "TBTableViewController.h"
+#import "YHTableViewController.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,11 @@
 
 - (IBAction)clickGTableView:(id)sender {
     TBTableViewController *vc = [[TBTableViewController alloc] init];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:vc animated:YES completion:nil];
+}
+- (IBAction)clickYHTableView:(id)sender {
+    YHTableViewController *vc = [[YHTableViewController alloc] init];
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:vc animated:YES completion:nil];
 }

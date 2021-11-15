@@ -32,6 +32,11 @@
 		81CAE97C25CD180B00B5C8A7 /* TBTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CAE97A25CD180B00B5C8A7 /* TBTestCell.xib */; };
 		81CAE98225CD183E00B5C8A7 /* TBTestFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CAE98125CD183E00B5C8A7 /* TBTestFooter.m */; };
 		81CAE98725CD184500B5C8A7 /* TBTestFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CAE98625CD184500B5C8A7 /* TBTestFooter.xib */; };
+		81D815FE273CB94C00A4FACE /* YHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D815FD273CB94C00A4FACE /* YHTableViewController.m */; };
+		81D81602273CBA0800A4FACE /* YHBaseDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D81601273CBA0800A4FACE /* YHBaseDelegate.m */; };
+		81D81605273CBB9600A4FACE /* YHSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D81604273CBB9600A4FACE /* YHSectionModel.m */; };
+		81D81608273CC6A500A4FACE /* YHItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D81607273CC6A500A4FACE /* YHItemModel.m */; };
+		81D8160B273CEC5600A4FACE /* UITableView+YHExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D8160A273CEC5600A4FACE /* UITableView+YHExpand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +101,16 @@
 		81CAE98025CD183E00B5C8A7 /* TBTestFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTestFooter.h; sourceTree = "<group>"; };
 		81CAE98125CD183E00B5C8A7 /* TBTestFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTestFooter.m; sourceTree = "<group>"; };
 		81CAE98625CD184500B5C8A7 /* TBTestFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBTestFooter.xib; sourceTree = "<group>"; };
+		81D815FC273CB94C00A4FACE /* YHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHTableViewController.h; sourceTree = "<group>"; };
+		81D815FD273CB94C00A4FACE /* YHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTableViewController.m; sourceTree = "<group>"; };
+		81D81600273CBA0800A4FACE /* YHBaseDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHBaseDelegate.h; sourceTree = "<group>"; };
+		81D81601273CBA0800A4FACE /* YHBaseDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHBaseDelegate.m; sourceTree = "<group>"; };
+		81D81603273CBB9600A4FACE /* YHSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHSectionModel.h; sourceTree = "<group>"; };
+		81D81604273CBB9600A4FACE /* YHSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHSectionModel.m; sourceTree = "<group>"; };
+		81D81606273CC6A500A4FACE /* YHItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHItemModel.h; sourceTree = "<group>"; };
+		81D81607273CC6A500A4FACE /* YHItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHItemModel.m; sourceTree = "<group>"; };
+		81D81609273CEC5600A4FACE /* UITableView+YHExpand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+YHExpand.h"; sourceTree = "<group>"; };
+		81D8160A273CEC5600A4FACE /* UITableView+YHExpand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+YHExpand.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +138,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		811DF396270547B3009A8AD0 /* FoldTableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoldTableView;
+			sourceTree = "<group>";
+		};
 		818B16AD25BFE72C006E374B = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +204,7 @@
 		818B16F525BFEAC0006E374B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				81D815FF273CB9AD00A4FACE /* YHTableView */,
 				81CAE95425CD14E400B5C8A7 /* UITableView */,
 				818B16F625BFEACC006E374B /* UIView */,
 			);
@@ -200,6 +223,8 @@
 		818B170625BFEDB7006E374B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				81D815FB273CB91C00A4FACE /* YHTableView */,
+				811DF396270547B3009A8AD0 /* FoldTableView */,
 				81CAE96125CD154E00B5C8A7 /* TBTableView */,
 				818B170725BFEDC6006E374B /* XibSubView */,
 			);
@@ -251,6 +276,30 @@
 				81CAE98625CD184500B5C8A7 /* TBTestFooter.xib */,
 			);
 			path = TBTableView;
+			sourceTree = "<group>";
+		};
+		81D815FB273CB91C00A4FACE /* YHTableView */ = {
+			isa = PBXGroup;
+			children = (
+				81D815FC273CB94C00A4FACE /* YHTableViewController.h */,
+				81D815FD273CB94C00A4FACE /* YHTableViewController.m */,
+			);
+			path = YHTableView;
+			sourceTree = "<group>";
+		};
+		81D815FF273CB9AD00A4FACE /* YHTableView */ = {
+			isa = PBXGroup;
+			children = (
+				81D81600273CBA0800A4FACE /* YHBaseDelegate.h */,
+				81D81601273CBA0800A4FACE /* YHBaseDelegate.m */,
+				81D81603273CBB9600A4FACE /* YHSectionModel.h */,
+				81D81604273CBB9600A4FACE /* YHSectionModel.m */,
+				81D81606273CC6A500A4FACE /* YHItemModel.h */,
+				81D81607273CC6A500A4FACE /* YHItemModel.m */,
+				81D81609273CEC5600A4FACE /* UITableView+YHExpand.h */,
+				81D8160A273CEC5600A4FACE /* UITableView+YHExpand.m */,
+			);
+			path = YHTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,15 +439,20 @@
 			files = (
 				81CAE95D25CD14FB00B5C8A7 /* TBSectionModel.m in Sources */,
 				81CAE95B25CD14FB00B5C8A7 /* GTableView.m in Sources */,
+				81D81602273CBA0800A4FACE /* YHBaseDelegate.m in Sources */,
 				81CAE98225CD183E00B5C8A7 /* TBTestFooter.m in Sources */,
 				818B16FF25BFED22006E374B /* CYHXibSubView.m in Sources */,
+				81D8160B273CEC5600A4FACE /* UITableView+YHExpand.m in Sources */,
 				818B16C125BFE72C006E374B /* ViewController.m in Sources */,
 				818B170B25BFEDF0006E374B /* XibSubViewViewController.m in Sources */,
 				81CAE97B25CD180B00B5C8A7 /* TBTestCell.m in Sources */,
 				818B171625BFEFF2006E374B /* BackTopView.m in Sources */,
 				818B16BB25BFE72C006E374B /* AppDelegate.m in Sources */,
+				81D81605273CBB9600A4FACE /* YHSectionModel.m in Sources */,
 				81CAE95C25CD14FB00B5C8A7 /* TBRowModel.m in Sources */,
 				817EA67A25ECEB15004DCC46 /* TBDataDelegate.m in Sources */,
+				81D81608273CC6A500A4FACE /* YHItemModel.m in Sources */,
+				81D815FE273CB94C00A4FACE /* YHTableViewController.m in Sources */,
 				818B16CC25BFE72D006E374B /* main.m in Sources */,
 				81CAE96525CD167300B5C8A7 /* TBTableViewController.m in Sources */,
 				81CAE96F25CD17AB00B5C8A7 /* TBTestHeader.m in Sources */,
